@@ -18,8 +18,4 @@ def disciplina():
 def listacurso():
         return render_template ('listacurso.html')
 
-@app.route('/noticias')
-def noticias():
-        return render_template ('noticias.html')
-
 app.run()
