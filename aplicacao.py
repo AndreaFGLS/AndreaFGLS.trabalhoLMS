@@ -9,5 +9,13 @@ def index():
 @app.route('/detalhescurso')
 def detalhescurso():
         return render_template ('detalhescurso.html')
+
+@app.route('/disciplina')
+def disciplina():
+        return render_template ('disciplina.html')
+
+@app.route('/listacurso')
+def listacurso():
+        return render_template ('listacurso.html')
         
 app.run()
